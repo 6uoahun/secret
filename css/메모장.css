@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Ramche';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Ramche.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: #f5f5f5;
+    background-color: #94cbf5;
+}
+
+h3,h2 {
+    color: rgb(49, 119, 181);
+    text-align: center;
+    vertical-align: ;
+    font-family: 'Ramche';
+    
+    
+}
+/* 전체 div */
+.container {
+    width: 60%;
+    margin: 200px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* textarea */
+#memo-input {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* 버튼 스타일 */
+button {
+    background-color: #0080ff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Ramche';
+}
+
+/* 마우스 올렸을 때 */
+button:hover {
+    background-color: #156fb4;
+}
+
+/* 저장된 메모들의 출력 영역 스타일을 설정합니다. */
+#memo-list {
+    margin: 20px;
+    font-family: 'Ramche';
+}
